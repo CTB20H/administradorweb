@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="/css/admin.css">
+</head>
+<body>
+<h1>Agregar Productos</h1>
+<div class="contenedor-principal">
+  <div class="contenedor-formulario">
+    <form id="formularioProductos">
+      <label for="txtSerie">N. Serie: </label> <input type="text" id="txtNumSerie" name="txtNumSerie">
+      <label for="txtMarca">Marca Automovil: </label><input type="text" id="txtMarca" name="txtMarca">
+      <label for="txtModelo">Modelo Automovil: </label><input type="text" id="txtModelo" name="txtModelo">
+      <label for="txtDescripcion">Descripcion Automovil: </label><input type="text" id="txtDescripcion" name="txtDescripcion">
+      <label for="txtUrl">URL Img Automovil: </label><input type="text" id="txtUrl" name="txtUrl">
+      <input class="subirArchivo" type="file" id="imageInput"> <button id="uploadButton">Subir Imagen</button>
+ 
+    <p id="mensaje" style="text-align: center; color: white;"></p>
+
+    <button type="button" id="btnAgregar">Agregar</button>
+    <button type="button" id="btnBuscar">Buscar</button>
+    <button type="button" id="btnActualizar">Actualizar</button>
+    <button type="button" id="btnBorrar">Borrar</button>
+    <button type="reset">Limpiar formulario</button>
+    </form>
+  </div>
+  <div class="contenedor-tabla">
+    <table id="tablaProductos">
+      <thead>
+        <tr>
+            <th>Serie</th>
+            <th>Marca</th>
+            <th>Modelo</th>
+            <th>Descripcion</th>
+            <th>Imagen</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </div>
+</div>
+    </center>
+</body>
+<script type="module" src="jss/main.js"></script>
+</html>

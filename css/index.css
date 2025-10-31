@@ -1,0 +1,19 @@
+* {
+    margin: auto;
+    padding: auto;
+}
+
+header {
+    background-color: rgb(17, 17, 75);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+
+}
+
+body {
+    background-color: rgb(153, 153, 224);
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
